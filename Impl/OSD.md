@@ -36,4 +36,17 @@ thread and start executing `SafeTimer::timer_thread`.
 
     recovery_request_timer
 
+# Object
+
+    +---------------------------------------------+
+    |   byte data   | xattrs | omap_header | omap |
+    +---------------------------------------------+
+
+# Transaction
+
+    Atomic
+    Concurrency Control
+    Rollback
+    Serialize
+
 
